@@ -1,0 +1,210 @@
+/*================= DASAR ===================*/
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e6fbe7;
+}
+/*==================== NAV ========================*/
+ul {
+  list-style: none;
+}
+
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBENQ {
+  overflow: hidden;
+  color: #104619;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  top: 0;
+  margin-top: 1.7rem;
+  margin-left: 1rem;
+  position: fixed;
+}
+
+.navtombol {
+  position: fixed;
+  top: -33px;
+  right: -50%;
+  width: 85%;
+  height: 100%;
+  padding: 3rem;
+  transition: 0.4s;
+  margin-right: 2.5rem;
+}
+
+.navlisttombol {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+.navitemtombol a {
+  row-gap: 3rem;
+  display: inline-block;
+  color: #104619;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.navitemtombol a:hover {
+  color: #059458;
+  text-decoration: underline;
+}
+
+/*===================TITLE======================*/
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 8rem;
+  font-size: 1.75rem;
+  color: rgb(4, 87, 4);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/*=================== GAMBAR 1 ====================*/
+.home_container {
+  margin-top: 3rem;
+  position: block;
+  
+}
+.gambar1 {
+  height: 300px;
+  width: 200px;
+  margin-left: 19rem;
+}
+.wrapper1 {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.zoom1 img {
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.wrapper1 :hover,
+.zoom1 img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*=================== GAMBAR 2 ====================*/
+.gambar2 {
+  height: 280px;
+  width: 200px;
+  margin-left: 1rem;
+}
+.wrapper2 {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.zoom2 img {
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.wrapper2 :hover,
+.zoom2 img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*=================== GAMBAR 3 ====================*/
+
+.gambar3 {
+  height: 300px;
+  width: 200px;
+  margin-left: 1rem;
+}
+.wrapper3 {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.zoom3 img {
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+}
+
+.wrapper3 :hover,
+.zoom3 img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*=================== Deskripsi Home ====================*/
+h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: #024705;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*=================== FOOTER ====================*/
+
+#kontainer {
+    background:  rgb(5, 87, 5);
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.judul {
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+}
+
+p{
+  color: white;
+  margin-left: 4.2rem;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: rgb(179, 245, 185);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(73, 185, 62);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(40, 151, 68);
+}
+

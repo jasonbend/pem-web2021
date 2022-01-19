@@ -1,0 +1,79 @@
+/*
+============COLOR==============
+background-color: #fbeeb4
+color: white (font color)
+============FONT===============
+(NAV)      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+(SUBTITLE) font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+(TITLE)    font-family: "Times New Roman", Times, serif;
+(TULISAN)  
+(COLOR)    color: white;
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(227, 255, 233);
+}
+/*================== Background ==================*/
+.home_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 100%;
+}
+/*================== Judul =======================*/
+.home_container {
+  position: relative;
+  height: 3rem;
+  margin: 3rem;
+  align-content: center;
+  row-gap: 3rem;
+}
+
+.home_subtitle {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home_title {
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-shadow: 3px 2px 1px black;
+  margin-top: 9.5rem;
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+}
+
+/*================= TOMBOL Get in to ==================*/
+.topnav {
+  overflow: hidden;
+  margin-left: 7.5rem;
+}
+.topnav a {
+  background-color: #124009;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 35px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px black;
+}
+.topnav a:hover {
+  background-color: #065457;
+  color: white;
+}
